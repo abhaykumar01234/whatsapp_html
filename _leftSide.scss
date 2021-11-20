@@ -1,0 +1,38 @@
+@import 'chatlist';
+
+.leftSide{
+    position: relative;
+    flex: 0 0 30%;
+    background: #fff;
+    border-right: 1px solid rgba(0,0,0,0.2);
+
+    .search_chat{
+        position: relative;
+        height: 50px;
+        background: #f6f6f6;
+        padding: 0 15px;
+
+        input{
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 6px;
+            border-radius: 30px;
+            font-size: 14px;
+            height: 38px;
+            padding-left: 40px;
+
+            &::placeholder{
+                color: #bbb
+            }
+        }
+
+        ion-icon{
+            position: absolute;
+            left: 30px;
+            top: 16px;
+            font-size: 1.2em;
+            color: #bbb;
+        }
+    }
+}
